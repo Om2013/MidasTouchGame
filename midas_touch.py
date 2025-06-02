@@ -31,7 +31,7 @@ midas_dx = 0
 midas_dy = 0
 SIZE = 50
 
-# Make the midas rectangle 
+# Make the Midas rectangle 
 midas = pygame.Rect(x, y, SIZE, SIZE)
 
 # Make the 4 rectangles 
@@ -40,7 +40,7 @@ rect2 = pygame.Rect(510, 20, 70, 70)
 rect3 = pygame.Rect(20, 510, 70, 70)
 rect4 = pygame.Rect(510, 510, 70, 70)
 
-# Set the rectangles to not touched to start
+# Set the rectangles to not touched 
 touched1 = False
 touched2 = False
 touched3 = False
